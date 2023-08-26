@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap");
+
+.container {
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+/* For Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.left-four {
+  width: 50%;
+}
+
+.right-four {
+  width: 50%;
+}
+
+.left-three {
+  width: 50%;
+}
+
+.right-three {
+  width: 50%;
+}
+
+.left-navbar {
+  width: 50%;
+}
+
+.right-navbar {
+  width: 50%;
+}
+
+.left-hero-main {
+  width: 50%;
+}
+
+.right-hero-main {
+  width: 50%;
+}
+
+.right-navbar ul {
+  display: flex;
+  justify-content: end;
+}
+
+.right-navbar li {
+  list-style: none;
+  padding: 15px;
+}
+
+.right-navbar a {
+  text-decoration: none;
+  color: black;
+}
+/* End Navbar */
+
+/* For Main */
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brief-information {
+  display: flex;
+}
+
+.brief-left {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  text-align: center;
+  border: 3px solid gray;
+}
+
+.brief-right {
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  text-align: center;
+  border: 3px solid gray;
+}
+
+.title-dua {
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+}
+
+.description-dua {
+  font-size: 30px;
+  line-height: 45px;
+  color: gray;
+}
+
+.right .img-one {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.right .img-three {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+/* End Main */
+
+/* SECTION TIGA */
+.check-item {
+  display: flex;
+}
+
+.main-four {
+  display: flex;
+}
+
+.pl {
+  padding-left: 30px;
+}
+
+.pl p {
+  padding: 0;
+}
+
+.main-five {
+  display: flex;
+  align-items: center;
+}
+
+.foot-five {
+  display: flex;
+  justify-content: end;
+}
+
+.foot-five div {
+  margin: 10px;
+}
+
+.lima {
+  margin-top: 40px;
+}
+
+/* Media Responsive For Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+  /* For Navbar */
+  .navbar {
+    flex-direction: column;
+  }
+
+  .right-navbar {
+    width: 100%;
+  }
+
+  .right-navbar ul {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .left-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /* End Navbar */
+
+  /* For Section Two */
+  .main {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .left-hero-main {
+    width: 100%;
+  }
+
+  .right-hero-main {
+    width: 100%;
+  }
+
+  .brief-information {
+    justify-content: center;
+  }
+
+  .description-dua {
+    text-align: center;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .title-dua {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .brief-right {
+    margin: 10px;
+  }
+
+  .brief-left {
+    margin: 10px;
+  }
+
+  .rsv-img {
+    width: 100%;
+  }
+
+  .mb {
+    margin-bottom: 20px;
+  }
+  /* End Section Two */
+
+  /* For Section Three */
+  .left-three {
+    width: 100%;
+  }
+
+  .right-three {
+    width: 100%;
+  }
+  /* End Section Three */
+
+  /* For Section Four */
+  .main-four {
+    flex-direction: column;
+  }
+
+  .left-four {
+    width: 100%;
+  }
+
+  .right-four {
+    width: 100%;
+  }
+
+  .df {
+    justify-content: center;
+  }
+  /* End Secttion Four */
+
+  /* For Section Five */
+  .main-five {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .foot-five {
+    justify-content: center;
+    display: none;
+  }
+
+  /* End For Section Five */
+}
+
+
+/* Order ??? */
